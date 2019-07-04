@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MENUVMMV.View.ViewMenu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Menu" />
+            <Entry x:Name="EntryNombre" Placeholder="Ingrese Nombre del platillo"></Entry>
+            <Entry x:Name="EntryPrecio" Keyboard="Numeric" Placeholder="Ingrese Precio del platillo"></Entry>
+            <Entry x:Name="NumeroIngredientes" Keyboard="Numeric" Placeholder="Ingrese Numero ingredientes del platillo"></Entry>
+            <Entry x:Name="Nacionalidad" Placeholder="Ingrese Nacionalidad del platillo"></Entry>
+            <Button Text="Guardar" Clicked="Buttn_Clicked"></Button>
+            <Label Text="Selecione la accion a realizar:"></Label>
+            <Entry x:Name="Accion" Placeholder="1: Comprar ingredientes, 2: Preparar Ingredientes, 3:Cocinar" Keyboard="Numeric"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
